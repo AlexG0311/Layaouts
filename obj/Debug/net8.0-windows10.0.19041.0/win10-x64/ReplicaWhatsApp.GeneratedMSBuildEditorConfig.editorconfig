@@ -8,96 +8,72 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ReplicaWhatsApp
-build_property.ProjectDir = C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\ee\
+build_property.ProjectDir = C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\ReplicaWhatsApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/Absolute.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Absolute.xaml
-build_metadata.AdditionalFiles.TargetPath = Absolute.xaml
-build_metadata.AdditionalFiles.RelativePath = Absolute.xaml
-
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/App.xaml]
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/Detalle.xaml]
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/Detalle.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Detalle.xaml
 build_metadata.AdditionalFiles.TargetPath = Detalle.xaml
 build_metadata.AdditionalFiles.RelativePath = Detalle.xaml
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/FlexLayout.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.FlexLayout.xaml
-build_metadata.AdditionalFiles.TargetPath = FlexLayout.xaml
-build_metadata.AdditionalFiles.RelativePath = FlexLayout.xaml
-
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/General.xaml]
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/General.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.General.xaml
 build_metadata.AdditionalFiles.TargetPath = General.xaml
 build_metadata.AdditionalFiles.RelativePath = General.xaml
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/Grid.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Grid.xaml
-build_metadata.AdditionalFiles.TargetPath = Grid.xaml
-build_metadata.AdditionalFiles.RelativePath = Grid.xaml
-
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/HorizontalStackLayout.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.HorizontalStackLayout.xaml
-build_metadata.AdditionalFiles.TargetPath = HorizontalStackLayout.xaml
-build_metadata.AdditionalFiles.RelativePath = HorizontalStackLayout.xaml
-
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/Inicial.xaml]
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/Inicial.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Inicial.xaml
 build_metadata.AdditionalFiles.TargetPath = Inicial.xaml
 build_metadata.AdditionalFiles.RelativePath = Inicial.xaml
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/Maestro.xaml]
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/Maestro.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Maestro.xaml
 build_metadata.AdditionalFiles.TargetPath = Maestro.xaml
 build_metadata.AdditionalFiles.RelativePath = Maestro.xaml
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/MainPage.xaml]
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/Page3.xaml]
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/Page1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Page1.xaml
+build_metadata.AdditionalFiles.TargetPath = Page1.xaml
+build_metadata.AdditionalFiles.RelativePath = Page1.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/Page2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Page2.xaml
+build_metadata.AdditionalFiles.TargetPath = Page2.xaml
+build_metadata.AdditionalFiles.RelativePath = Page2.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/Page3.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Page3.xaml
 build_metadata.AdditionalFiles.TargetPath = Page3.xaml
 build_metadata.AdditionalFiles.RelativePath = Page3.xaml
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/Resources/Styles/Colors.xaml]
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/Resources/Styles/Styles.xaml]
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ReplicaWhatsApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
-
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/StackLayout.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.StackLayout.xaml
-build_metadata.AdditionalFiles.TargetPath = StackLayout.xaml
-build_metadata.AdditionalFiles.RelativePath = StackLayout.xaml
-
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/ee/VerticalStackLayout.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ReplicaWhatsApp.VerticalStackLayout.xaml
-build_metadata.AdditionalFiles.TargetPath = VerticalStackLayout.xaml
-build_metadata.AdditionalFiles.RelativePath = VerticalStackLayout.xaml

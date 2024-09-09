@@ -1,33 +1,26 @@
-﻿using System;
-using Microsoft.Maui.Controls;
-
-namespace ReplicaWhatsApp
+﻿namespace ReplicaWhatsApp
 {
     public partial class MainPage : ContentPage
     {
+        int count = 0;
+
         public MainPage()
         {
+            
             InitializeComponent();
         }
 
-        private void OnChatsButtonClicked(object sender, EventArgs e)
+        private void OnCounterClicked(object sender, EventArgs e)
         {
-            carouselView.Position = 0; // Cambia a la página Chats
-        }
+            count++;
 
-        private void OnNovedadesButtonClicked(object sender, EventArgs e)
-        {
-            carouselView.Position = 1; // Cambia a la página Novedades
-        }
+            if (count == 1)
+                CounterBtn.Text = $"Clicked {count} time";
+            else
+                CounterBtn.Text = $"Clicked {count} times";
 
-        private void OnComunidadesButtonClicked(object sender, EventArgs e)
-        {
-            carouselView.Position = 2; // Cambia a la página Comunidades
-        }
-
-        private void OnLlamadasButtonClicked(object sender, EventArgs e)
-        {
-            carouselView.Position = 3; // Cambia a la página Llamadas
+            SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
+
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReplicaWhatsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a27ff69b54ac82d140bf23ae9fa70640bbb4e45f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a74f4f057141d6278f03b9f5bbf1226e9de39b7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReplicaWhatsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReplicaWhatsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

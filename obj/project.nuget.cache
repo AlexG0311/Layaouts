@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4tHHurpfXXJUQ1/uEdA3ERTWc1oEx/L5sfkIhQLVll936IgTU69kCGRArtxz54g7S+eh9lPm3VbaiEOAmLI4rg==",
+  "dgSpecHash": "4OBSC85ZROcqVPy09rH3TAUcSwUh7MzEnwOOeGWwzS6CDKWtv0vFv6F/jFB456tT1+YR6mltInRgTJPGwBhVRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ee\\ReplicaWhatsApp.csproj",
+  "projectFilePath": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ReplicaWhatsApp\\ReplicaWhatsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexd\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\alexd\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

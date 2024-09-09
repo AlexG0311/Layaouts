@@ -63,31 +63,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Absolute.xaml.cs">
-	    <DependentUpon>Absolute.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Grid.xaml.cs">
-	    <DependentUpon>Grid.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="StackLayout.xaml.cs">
-	    <DependentUpon>StackLayout.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Absolute.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Detalle.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="FlexLayout.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="General.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="HorizontalStackLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Inicial.xaml">
@@ -96,16 +75,13 @@
 	  <MauiXaml Update="Maestro.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Grid.xaml">
+	  <MauiXaml Update="Page1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="StackLayout.xaml">
+	  <MauiXaml Update="Page2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Page3.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="VerticalStackLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

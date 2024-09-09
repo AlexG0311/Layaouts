@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ee\\ReplicaWhatsApp.csproj": {}
+    "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ReplicaWhatsApp\\ReplicaWhatsApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ee\\ReplicaWhatsApp.csproj": {
+    "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ReplicaWhatsApp\\ReplicaWhatsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ee\\ReplicaWhatsApp.csproj",
+        "projectUniqueName": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ReplicaWhatsApp\\ReplicaWhatsApp.csproj",
         "projectName": "ReplicaWhatsApp",
-        "projectPath": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ee\\ReplicaWhatsApp.csproj",
+        "projectPath": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ReplicaWhatsApp\\ReplicaWhatsApp.csproj",
         "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ee\\obj\\",
+        "outputPath": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\ReplicaWhatsApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
