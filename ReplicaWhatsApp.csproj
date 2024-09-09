@@ -66,6 +66,12 @@
 	  <Compile Update="Absolute.xaml.cs">
 	    <DependentUpon>Absolute.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Grid.xaml.cs">
+	    <DependentUpon>Grid.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="StackLayout.xaml.cs">
+	    <DependentUpon>StackLayout.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -90,10 +96,10 @@
 	  <MauiXaml Update="Maestro.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Page1.xaml">
+	  <MauiXaml Update="Grid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Page2.xaml">
+	  <MauiXaml Update="StackLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Page3.xaml">

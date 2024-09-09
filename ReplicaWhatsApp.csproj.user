@@ -3,8 +3,8 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Pixel 5 - API 34 (Android 14.0 - API 34)</ActiveDebugProfile>
-    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <ActiveDebugProfile>Xiaomi M2101K7BG (Android 13.0 - API 33)</ActiveDebugProfile>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_34</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
@@ -33,10 +33,10 @@
     <MauiXaml Update="Maestro.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Page1.xaml">
+    <MauiXaml Update="Grid.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Page2.xaml">
+    <MauiXaml Update="StackLayout.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Page3.xaml">

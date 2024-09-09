@@ -3,26 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ReplicaWhatsApp.VerticalStackLayout"
              Title="VerticalStackLayout">
-    <VerticalStackLayout Margin="20">
-        <Label Text="Primary colors" />
-        <Rectangle Fill="Red"
-                   HeightRequest="30"
-                   WidthRequest="300" />
-        <Rectangle Fill="Yellow"
-                   HeightRequest="30"
-                   WidthRequest="300" />
-        <Rectangle Fill="Blue"
-                   HeightRequest="30"
-                   WidthRequest="300" />
-        <Label Text="Secondary colors" />
-        <Rectangle Fill="Green"
-                   HeightRequest="30"
-                   WidthRequest="300" />
-        <Rectangle Fill="Orange"
-                   HeightRequest="30"
-                   WidthRequest="300" />
-        <Rectangle Fill="Purple"
-                   HeightRequest="30"
-                   WidthRequest="300" />
-    </VerticalStackLayout>
+    <StackLayout Padding="20" Spacing="30"
+                         VerticalOptions="Center" HorizontalOptions="Center">
+
+        <Label Text="Menú Principal VR"
+               FontSize="36" FontAttributes="Bold"
+               TextColor="White"
+               HorizontalOptions="Center" />
+
+        <Button Text="Iniciar Experiencia VR"
+                FontSize="24"
+                BackgroundColor="Green"
+                TextColor="White"
+                HeightRequest="60"
+                WidthRequest="300"
+                HorizontalOptions="Center" />
+
+        <Button Text="Configuración"
+                FontSize="24"
+                BackgroundColor="Blue"
+                TextColor="White"
+                HeightRequest="60"
+                WidthRequest="300"
+                HorizontalOptions="Center" />
+
+        <Button Text="Salir"
+                FontSize="24"
+                BackgroundColor="Red"
+                TextColor="White"
+                HeightRequest="60"
+                WidthRequest="300"
+                HorizontalOptions="Center" />
+    </StackLayout>
+
 </ContentPage>

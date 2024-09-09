@@ -21,7 +21,7 @@ public partial class Maestro : ContentPage
 			Name = "Grid",
             Imagen = "manwhite.png",
         
-            Page = new Page1()
+            Page = new Grid()
 		});
 
 
@@ -31,7 +31,7 @@ public partial class Maestro : ContentPage
             Name = "StackLayout",
             Imagen = "manwhite.png",
             
-            Page = new Page2()
+            Page = new StackLayout()
 
         });
 

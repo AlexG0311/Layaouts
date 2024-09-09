@@ -3,16 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ReplicaWhatsApp.FlexLayout"
              Title="FlexLayout">
-    <FlexLayout Direction="Column"
-            AlignItems="Center"
-            JustifyContent="SpaceEvenly">
+    
+    <FlexLayout Direction="Row"        
+        AlignItems="Center"
+       JustifyContent="SpaceBetween"
+       Wrap="Wrap"
+       Position="Relative"
+       >
         
-        
-        
-        <Label Text="FlexLayout in Action" />
-        <Button Text="Button" />
-        <Label Text="Another Label" />
-        
-        
+        <BoxView Color="LightBlue" HeightRequest="100" WidthRequest="100" />
+        <BoxView Color="LightBlue" HeightRequest="100" WidthRequest="100" />
+        <BoxView Color="LightBlue" HeightRequest="100" WidthRequest="100" />
+        <BoxView Color="LightGreen" HeightRequest="100" WidthRequest="100" />
+        <BoxView Color="LightCoral" HeightRequest="100" WidthRequest="100" />
+        <BoxView Color="Orange" HeightRequest="100" WidthRequest="100" />
+        <BoxView Color="Purple" HeightRequest="100" WidthRequest="100" />
+
     </FlexLayout>
 </ContentPage>
