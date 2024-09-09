@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReplicaWhatsApp.MainPage">
+    <Grid>
+        <CarouselView x:Name="carouselView">
+            <CarouselView.ItemsSource>
+                <x:Array Type="{x:Type ContentPage}">
+                    <ContentPage Title="Chats">
+                        <!-- Contenido de la página Chats -->
+                    </ContentPage>
+                    <ContentPage Title="Novedades">
+                        <!-- Contenido de la página Novedades -->
+                    </ContentPage>
+                    <ContentPage Title="Comunidades">
+                        <!-- Contenido de la página Comunidades -->
+                    </ContentPage>
+                    <ContentPage Title="Llamadas">
+                        <!-- Contenido de la página Llamadas -->
+                    </ContentPage>
+                </x:Array>
+            </CarouselView.ItemsSource>
+        </CarouselView>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End" Padding="10">
+            <Button Text="Chats" Clicked="OnChatsButtonClicked" />
+            <Button Text="Novedades" Clicked="OnNovedadesButtonClicked" />
+            <Button Text="Comunidades" Clicked="OnComunidadesButtonClicked" />
+            <Button Text="Llamadas" Clicked="OnLlamadasButtonClicked" />
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
