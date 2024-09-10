@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\Layaout\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA12D8A6-BB35-4538-BA81-AC34BDF70E8D}|Layouts.csproj|c:\\users\\alexd\\onedrive\\escritorio\\5to  semestre\\programacion movil\\layaout\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA12D8A6-BB35-4538-BA81-AC34BDF70E8D}|Layouts.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA12D8A6-BB35-4538-BA81-AC34BDF70E8D}|Layouts.csproj|c:\\users\\alexd\\onedrive\\escritorio\\5to  semestre\\programacion movil\\layaout\\inicial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA12D8A6-BB35-4538-BA81-AC34BDF70E8D}|Layouts.csproj|solutionrelative:inicial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA12D8A6-BB35-4538-BA81-AC34BDF70E8D}|Layouts.csproj|c:\\users\\alexd\\onedrive\\escritorio\\5to  semestre\\programacion movil\\layaout\\maestro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BA12D8A6-BB35-4538-BA81-AC34BDF70E8D}|Layouts.csproj|solutionrelative:maestro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\Layaout\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\Layaout\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T04:56:46.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inicial.xaml",
+              "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\Layaout\\Inicial.xaml",
+              "RelativeDocumentMoniker": "Inicial.xaml",
+              "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\Layaout\\Inicial.xaml",
+              "RelativeToolTip": "Inicial.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T04:56:44.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Maestro.xaml",
+              "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\Layaout\\Maestro.xaml",
+              "RelativeDocumentMoniker": "Maestro.xaml",
+              "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\Layaout\\Maestro.xaml",
+              "RelativeToolTip": "Maestro.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-10T04:56:41.504Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

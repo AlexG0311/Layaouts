@@ -12,10 +12,19 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Absolute.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Detalle.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="FlexLayout.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="General.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="HorizontalStackLayout.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Inicial.xaml">
@@ -24,13 +33,16 @@
     <MauiXaml Update="Maestro.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Page1.xaml">
+    <MauiXaml Update="Grid.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Page2.xaml">
+    <MauiXaml Update="StackLayout.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Page3.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="VerticalStackLayout.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

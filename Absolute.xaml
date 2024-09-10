@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReplicaWhatsApp.Absolute"
+             Title="AbsoluteLayout">
+    <AbsoluteLayout BackgroundColor="White" Padding="10">
+
+        <!-- Imagen de perfil circular en la parte superior -->
+        <Frame 
+            AbsoluteLayout.LayoutBounds="0.5, 0.07, 120 , 120"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Padding="0" 
+            HasShadow="True" 
+            CornerRadius="60">
+            <Image Source="dev.png" Aspect="AspectFill"/>
+        </Frame>
+
+        <!-- Nombre del usuario, centrado debajo de la imagen -->
+        <Label 
+            Text="Juan Pérez" 
+            FontSize="24" 
+            FontAttributes="Bold"
+            AbsoluteLayout.LayoutBounds="0.5, 0.25, AutoSize, AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            HorizontalTextAlignment="Center" />
+
+        <!-- Biografía del usuario debajo del nombre -->
+        <Label 
+            Text="Desarrollador apasionado por el móvil y las tecnologías de la nube. Amante del café."
+            FontSize="14"
+            AbsoluteLayout.LayoutBounds="0.5, 0.35, 0.8, AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional"
+            HorizontalTextAlignment="Center" />
+
+        <!-- Botón para seguir al usuario a la izquierda -->
+        <Button 
+            Text="Seguir" 
+            BackgroundColor="Green" 
+            TextColor="White"
+            AbsoluteLayout.LayoutBounds="0.25, 0.5, 0.3, AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" />
+
+        <!-- Botón para enviar mensaje a la derecha -->
+        <Button 
+            Text="Mensaje" 
+            BackgroundColor="Blue" 
+            TextColor="White"
+            AbsoluteLayout.LayoutBounds="0.75, 0.5, 0.3, AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional" />
+
+        <!-- Sección de estadísticas en la parte inferior -->
+        <StackLayout 
+            Orientation="Horizontal" 
+            HorizontalOptions="Center"
+            AbsoluteLayout.LayoutBounds="0.5, 0.65, 0.8, AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional">
+
+            <!-- Estadísticas: publicaciones -->
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="Publicaciones" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="123" FontSize="16" HorizontalTextAlignment="Center" />
+            </StackLayout>
+
+            <!-- Estadísticas: seguidores -->
+            <StackLayout HorizontalOptions="Center" Padding="20,0">
+                <Label Text="Seguidores" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="4567" FontSize="16" HorizontalTextAlignment="Center" />
+            </StackLayout>
+
+            <!-- Estadísticas: siguiendo -->
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="Siguiendo" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="789" FontSize="16" HorizontalTextAlignment="Center" />
+            </StackLayout>
+        </StackLayout>
+
+    </AbsoluteLayout>
+
+
+
+</ContentPage>

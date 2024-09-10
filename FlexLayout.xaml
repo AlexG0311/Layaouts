@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReplicaWhatsApp.FlexLayout"
+             Title="FlexLayout">
+    <ScrollView>
+        <FlexLayout Direction="Row"        
+        AlignItems="Center"
+       JustifyContent="SpaceBetween"
+       Wrap="Wrap"
+       Position="Relative"
+       >
+
+        <!-- Encabezado -->
+        <Label Text="Bienvenido a Nuestra Tienda" 
+                   FontSize="30" 
+                   FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center" 
+                   Margin="0,0,0,20" />
+            <Label Text="Ofertas!" 
+          FontSize="20" 
+          FontAttributes="Bold" 
+          Margin="5,0,0,10" />
+
+            <!-- Carrusel de Imágenes Promocionales -->
+        <ScrollView Orientation="Horizontal" 
+                        HorizontalScrollBarVisibility="Never" 
+                        Margin="0,0,0,20">
+            <FlexLayout Direction="Row" 
+                            AlignItems="Center" 
+                            JustifyContent="Start" 
+                            Wrap="NoWrap">
+                <!-- Imágenes del Carrusel -->
+                <Image Source="vestidos.png" 
+                           WidthRequest="200" 
+                           HeightRequest="300" 
+                           Aspect="AspectFill" 
+                           Margin="5,0" />
+                <Image Source="oferta2.png" 
+                           WidthRequest="200" 
+                           HeightRequest="300" 
+                           Aspect="AspectFill" 
+                           Margin="5,0" />
+                <Image Source="ss.png" 
+                           WidthRequest="200" 
+                           HeightRequest="300" 
+                           Aspect="AspectFill" 
+                           Margin="5,0" />
+            </FlexLayout>
+        </ScrollView>
+            <Label Text="Productos Destacados" 
+                   FontSize="20" 
+                   FontAttributes="Bold" 
+                   Margin="5,0,0,10" />
+
+            <!-- Producto 1 -->
+        <Frame WidthRequest="150" 
+                       HeightRequest="200" 
+                       Padding="10" 
+                       BorderColor="#ccc"
+                       Margin="5">
+            <StackLayout>
+                <Image Source="calabaza.png" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" />
+                <Label Text="Producto 1" 
+                               FontSize="16" 
+                               FontAttributes="Bold" />
+                <Label Text="$69.99" 
+                               FontSize="14" 
+                               TextColor="#007AFF" />
+            </StackLayout>
+        </Frame>
+
+        <!-- Producto 2 -->
+        <Frame WidthRequest="150" 
+                       HeightRequest="200" 
+                       Padding="10" 
+                       BorderColor="#ccc"
+                       Margin="5">
+            <StackLayout>
+                <Image Source="banana.png" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" />
+                <Label Text="Producto 2" 
+                               FontSize="16" 
+                               FontAttributes="Bold" />
+                <Label Text="$20.99" 
+                               FontSize="14" 
+                               TextColor="#007AFF" />
+            </StackLayout>
+        </Frame>
+
+
+        <!-- Producto 3 -->
+        <Frame WidthRequest="150" 
+                       HeightRequest="200" 
+                       Padding="10" 
+                       BorderColor="#ccc"
+                       Margin="5">
+            <StackLayout>
+                <Image Source="cocacola.png" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" />
+                <Label Text="Producto 3" 
+                               FontSize="16" 
+                               FontAttributes="Bold" />
+                <Label Text="$10.99" 
+                               FontSize="14" 
+                               TextColor="#007AFF" />
+            </StackLayout>
+        </Frame>
+
+
+        <!-- Producto 4 -->
+        <Frame WidthRequest="150" 
+                       HeightRequest="200" 
+                       Padding="10" 
+                       BorderColor="#ccc"
+                       Margin="5">
+            <StackLayout>
+                <Image Source="papitas.png" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" />
+                <Label Text="Producto 4" 
+                               FontSize="16" 
+                               FontAttributes="Bold" />
+                <Label Text="$22.77" 
+                               FontSize="14" 
+                               TextColor="#007AFF" />
+            </StackLayout>
+        </Frame>
+
+
+
+        <!-- Producto 5 -->
+        <Frame WidthRequest="150" 
+                       HeightRequest="200" 
+                       Padding="10" 
+                       BorderColor="#ccc"
+                       Margin="5">
+            <StackLayout>
+                <Image Source="lata.png" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" />
+                <Label Text="Producto 5" 
+                               FontSize="16" 
+                               FontAttributes="Bold" />
+                <Label Text="$69.99" 
+                               FontSize="14" 
+                               TextColor="#007AFF" />
+            </StackLayout>
+        </Frame>
+
+
+        <!-- Producto 5 -->
+        <Frame WidthRequest="150" 
+                       HeightRequest="200" 
+                       Padding="10" 
+                       BorderColor="#ccc"
+                       Margin="5">
+            <StackLayout>
+                <Image Source="detodito.jpg" 
+                               Aspect="AspectFill" 
+                               HeightRequest="100" />
+                <Label Text="Producto 5" 
+                               FontSize="16" 
+                               FontAttributes="Bold" />
+                <Label Text="$69.99" 
+                               FontSize="14" 
+                               TextColor="#007AFF" />
+            </StackLayout>
+        </Frame>
+
+
+       
+
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>

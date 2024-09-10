@@ -18,20 +18,20 @@ public partial class Maestro : ContentPage
 		{
 
 			
-			Name = "Pagina_",
+			Name = "Grid",
             Imagen = "manwhite.png",
-            Descripcion = StaticMessage.DESCRIPCION,
-            Page = new Page1()
+        
+            Page = new Grid()
 		});
 
 
         MenuModels.Add(new MenuModel
         {
 
-            Name = "Pagina_2",
+            Name = "StackLayout",
             Imagen = "manwhite.png",
-            Descripcion = StaticMessage.DESCRIPCION,
-            Page = new Page2()
+            
+            Page = new StackLayout()
 
         });
 
@@ -39,11 +39,40 @@ public partial class Maestro : ContentPage
         MenuModels.Add(new MenuModel
         {
 
-            Name = "Pagina_3",
+            Name = "VerticalStackLayout",
             Imagen = "manwhite.png",
-            Descripcion = StaticMessage.DESCRIPCION,
-            Page = new Page3()
+        
+            Page = new VerticalStackLayout()
         });
+
+        MenuModels.Add(new MenuModel
+        {
+
+            Name = "HorizontalStackLayout",
+            Imagen = "manwhite.png",
+           
+            Page = new HorizontalStackLayout()
+        });
+
+
+        MenuModels.Add(new MenuModel
+        {
+
+            Name = "FlexLayout",
+            Imagen = "manwhite.png",
+           
+            Page = new FlexLayout()
+        });
+        MenuModels.Add(new MenuModel
+        {
+
+            Name = "Absolute",
+            Imagen = "manwhite.png",
+
+            Page = new Absolute()
+        });
+
+
 
         collection.ItemsSource = MenuModels;
         
@@ -59,7 +88,7 @@ public partial class Maestro : ContentPage
     private void collection_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
         MenuModel? itemSelected = (MenuModel)e.CurrentSelection.FirstOrDefault()!;
-        NavigationToPage(new General(itemSelected));
+        NavigationToPage(itemSelected.Page);
 
     }
 }
